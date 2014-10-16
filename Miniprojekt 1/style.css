@@ -1,0 +1,111 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#head {
+	background-image: url("http://upload.wikimedia.org/wikipedia/commons/f/f6/Epping_Forest_Centenary_Walk_2_-_Sept_2008.jpg");
+	margin: 0px;
+	padding: 20px;
+	background-repeat: no-repeat;
+  background-size: 100%;
+  background-origin: border-box;
+  box-shadow: 0px 8px 50px #000;
+}
+
+.h1 {
+	background-color: #FFFFE9;
+	border-right: 5px solid green;
+	font-size: 48px;
+	padding-left: 5px;
+	padding-right: 10px;
+  box-shadow: 2px 2px 8px #000;
+}
+
+.h1I {
+	background-color: #FFFFE9;
+	border-right: 5px solid green;
+	font-size: 48px;
+	padding-left: 5px;
+	padding-right: 10px;
+  box-shadow: 2px 2px 8px #000;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.h1I:hover {
+	background-color: #FFFFE9;
+	border-right: 5px solid green;
+	font-size: 48px;
+	padding-left: 5px;
+	padding-right: 15px;
+  box-shadow: 2px 2px 8px #000;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+
+#artText {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#sel {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 500px;
+}
+
+#sel td {
+	margin: 0px;
+	width: 50%;
+	padding: 0px;
+	height: 50%;
+}
+
+#sel tr {
+	padding: 0px;
+}
+
+#vaar {
+	background-image: url("http://nhlife.files.wordpress.com/2014/03/spring-15.jpeg");
+	margin: 0px;
+	padding: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-origin: border-box;
+  box-shadow: 8px 8px 25px #000;
+}
+
+#sommar {
+	background-image: url("http://www.freeartwallpapers.com/wp-content/uploads/2014/08/summer-flower-wallpaper-free.jpg");
+	margin: 0px;
+	padding: 20px;
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box;
+  box-shadow: 8px 8px 25px #000;
+}
+
+#hoest {
+	background-image: url("http://miriadna.com/desctopwalls/images/max/Red-autumn-morning.jpg");
+	margin: 0px;
+	padding: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-origin: border-box;
+  box-shadow: 8px 8px 25px #000;
+}
+
+#vinter {
+	background-image: url("http://images.alphacoders.com/744/74453.jpg");
+	margin: 0px;
+	padding: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-origin: border-box;
+  box-shadow: 8px 8px 25px #000;
+}
