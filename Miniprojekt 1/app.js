@@ -6,6 +6,8 @@ $(document).ready(function() {
 
 $('#vaar').mouseover(function() {
   $('#vaar .h1I').css('padding-right', 15);
+  $('#vaar').css('width', $('#vaar').css('width') + 10);
+  $('#vaar').css('height', $('#vaar').css('height') + 10);
 });
 $('#sommar').mouseover(function() {
   $('#sommar .h1I').css('padding-right', 15);
