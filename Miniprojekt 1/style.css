@@ -4,7 +4,7 @@ body {
 }
 
 #head {
-	background-image: url("http://upload.wikimedia.org/wikipedia/commons/f/f6/Epping_Forest_Centenary_Walk_2_-_Sept_2008.jpg");
+	background-image: url("Banner.jpg");
 	margin: 0px;
 	padding: 20px;
 	padding-top: 0px;
@@ -101,7 +101,7 @@ body {
 }
 
 #vaar {
-	background-image: url("http://nhlife.files.wordpress.com/2014/03/spring-15.jpeg");
+	background-image: url("vaar.jpg");
 	margin: 0px;
 	padding: 20px;
 	background-repeat: no-repeat;
@@ -112,7 +112,7 @@ body {
 }
 
 #sommar {
-	background-image: url("http://www.freeartwallpapers.com/wp-content/uploads/2014/08/summer-flower-wallpaper-free.jpg");
+	background-image: url("sommar.jpg");
 	margin: 0px;
 	padding: 20px;
 	background-repeat: no-repeat;
@@ -123,7 +123,7 @@ body {
 }
 
 #hoest {
-	background-image: url("http://miriadna.com/desctopwalls/images/max/Red-autumn-morning.jpg");
+	background-image: url("hoest.jpg");
 	margin: 0px;
 	padding: 20px;
 	background-repeat: no-repeat;
@@ -134,7 +134,7 @@ body {
 }
 
 #vinter {
-	background-image: url("http://images.alphacoders.com/744/74453.jpg");
+	background-image: url("vinter.jpg");
 	margin: 0px;
 	padding: 20px;
 	background-repeat: no-repeat;
