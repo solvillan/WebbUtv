@@ -46,17 +46,17 @@ $('#vaar').click(function() {
 });
 $('#sommar').click(function() {
   $('body').fadeOut(250, function () {
-    location.href="vaar.html";
+    location.href="sommar.html";
   });
 });
 $('#hoest').click(function() {
   $('body').fadeOut(250, function () {
-    location.href="vaar.html";
+    location.href="hoest.html";
   });
 });
 $('#vinter').click(function() {
   $('body').fadeOut(250, function () {
-    location.href="vaar.html";
+    location.href="vinter.html";
   });
 });
 
