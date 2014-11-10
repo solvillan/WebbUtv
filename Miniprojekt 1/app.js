@@ -1,69 +1,85 @@
-$('body').css('opacity', 0);
-
-$(document).ready(function() {
-  $('body').fadeTo(250, 1);
-  $('#toIndex').css('opacity', 0);
+/* Rickard Doverfelt 2014 */
+$(window).load(function() {
+  $('#status').delay(250).fadeOut();
+  $('#preloader').delay(250).fadeOut('slow');
+  $('body').delay(250).css({'overflow':'visible'});
+  $('#toIndex').delay(1250).fadeTo(250, 0);
 });
 
 $('#vaar').mouseover(function() {
   $('#vaar .h1I').slideDown(100);
-  //$('#vaar').fadeTo(100, 0.75);
 });
 $('#sommar').mouseover(function() {
   $('#sommar .h1I').slideDown(100);
-  //$('#sommar').fadeTo(100, 0.75);
 });
 $('#hoest').mouseover(function() {
   $('#hoest .h1I').slideDown(100);
-  //$('#hoest').fadeTo(100, 0.75);
 });
 $('#vinter').mouseover(function() {
   $('#vinter .h1I').slideDown(100);
-  //$('#vinter').fadeTo(100, 0.75);
+});
+$('#about').mouseover(function() {
+  $('#about .h1I').slideDown(100);
 });
 
 $('#vaar').mouseleave(function() {
   $('#vaar .h1I').slideUp(100);
-  //$('#vaar').fadeTo(100, 1);
 });
 $('#sommar').mouseleave(function() {
   $('#sommar .h1I').slideUp(100);
-  //$('#sommar').fadeTo(100, 1);
 });
 $('#hoest').mouseleave(function() {
   $('#hoest .h1I').slideUp(100);
-  //$('#hoest').fadeTo(100, 1);
 });
 $('#vinter').mouseleave(function() {
   $('#vinter .h1I').slideUp(100);
-  //$('#vinter').fadeTo(100, 1);
+});
+$('#about').mouseleave(function() {
+  $('#about .h1I').slideUp(100);
 });
 
 $('#vaar').click(function() {
-  $('body').fadeOut(250, function () {
+  $('#status').fadeIn();
+  $('#preloader').fadeIn('slow', function() {
     location.href="vaar.html";
   });
+  $('body').css({'overflow':'hidden'});
 });
 $('#sommar').click(function() {
-  $('body').fadeOut(250, function () {
+  $('#status').fadeIn();
+  $('#preloader').fadeIn('slow', function() {
     location.href="sommar.html";
   });
+  $('body').css({'overflow':'hidden'});
 });
 $('#hoest').click(function() {
-  $('body').fadeOut(250, function () {
+  $('#status').fadeIn();
+  $('#preloader').fadeIn('slow', function() {
     location.href="hoest.html";
   });
+  $('body').css({'overflow':'hidden'});
 });
 $('#vinter').click(function() {
-  $('body').fadeOut(250, function () {
+  $('#status').fadeIn();
+  $('#preloader').fadeIn('slow', function() {
     location.href="vinter.html";
   });
+  $('body').css({'overflow':'hidden'});
+});
+$('#about').click(function() {
+  $('#status').fadeIn();
+  $('#preloader').fadeIn('slow', function() {
+    location.href="about.html";
+  });
+  $('body').css({'overflow':'hidden'});
 });
 
 $('#head').click(function() {
-  $('body').fadeOut(250, function () {
+  $('#status').fadeIn();
+  $('#preloader').fadeIn('slow', function() {
     location.href="index.html";
   });
+  $('body').css({'overflow':'hidden'});
 });
 
 $('#head').mouseover(function() {

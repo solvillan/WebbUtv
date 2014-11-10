@@ -1,7 +1,10 @@
+/* Rickard Doverfelt 2014 */
+
 @import url(http://fonts.googleapis.com/css?family=Ubuntu|Lobster&subset=latin,latin-ext);
 body {
 	padding: 0px;
 	margin: 0px;
+	overflow: hidden;
 }
 
 #head {
@@ -89,7 +92,7 @@ q {
 	padding-right: 20%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	font-family: 'Ubuntu', serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 }
 
@@ -102,7 +105,6 @@ q {
 
 #sel td {
 	margin: 0px;
-	width: 50%;
 	padding: 0px;
 	height: 50%;
 }
@@ -117,9 +119,10 @@ q {
 	padding: 20px;
 	background-repeat: no-repeat;
 	background-size: cover;
-  background-origin: border-box;
-  box-shadow: 8px 8px 25px #000;
+	background-origin: border-box;
+	box-shadow: 8px 8px 25px #000;
 	vertical-align: bottom;
+	width: 42.5%;
 }
 
 #sommar {
@@ -127,10 +130,11 @@ q {
 	margin: 0px;
 	padding: 20px;
 	background-repeat: no-repeat;
-  background-size: cover;
-  background-origin: border-box;
-  box-shadow: 8px 8px 25px #000;
+	background-size: cover;
+	background-origin: border-box;
+	box-shadow: 8px 8px 25px #000;
 	vertical-align: bottom;
+	width: 42.5%;
 }
 
 #hoest {
@@ -139,9 +143,10 @@ q {
 	padding: 20px;
 	background-repeat: no-repeat;
 	background-size: cover;
-  background-origin: border-box;
-  box-shadow: 8px 8px 25px #000;
+	background-origin: border-box;
+	box-shadow: 8px 8px 25px #000;
 	vertical-align: bottom;
+	width: 42.5%;
 }
 
 #vinter {
@@ -150,7 +155,42 @@ q {
 	padding: 20px;
 	background-repeat: no-repeat;
 	background-size: cover;
-  background-origin: border-box;
-  box-shadow: 8px 8px 25px #000;
+	background-origin: border-box;
+	box-shadow: 8px 8px 25px #000;
 	vertical-align: bottom;
+	width: 42.5%;
+}
+#about {
+	background-image: url("http://www.fastighetssverige.se/upload/2428_full.jpg");
+	margin: 0px;
+	padding: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-origin: border-box;
+	box-shadow: 8px 8px 25px #000;
+	vertical-align: bottom;
+	width: 15%;
+}
+
+/* Preloader */
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:188px;
+    height:188px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(loading.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-94px 0 0 -94px; /* is width and height divided by two */
 }
